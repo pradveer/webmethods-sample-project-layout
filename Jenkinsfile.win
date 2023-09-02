@@ -21,7 +21,7 @@
 pipeline {
     agent any 
 environment {
-    CUSTOM_PATH= "C:/ProgramData/Jenkins/.jenkins/workspace,C:/Windows/System32/cmd.exe"
+    CUSTOM_PATH= "C:/ProgramData/Jenkins/.jenkins/workspace"
   }
     stages {
         stage('Build'){
